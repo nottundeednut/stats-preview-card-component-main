@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -16,14 +18,34 @@
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <div id="container">
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+    <div id="left">
 
-  10k+ companies
-  314 templates
-  12m+ queries
+      <p class="big">
+        Get <span class="insight">insights</span>  that help your business grow.
+      </p>
+      
+      <p class="small">
+      Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      experience, and overall efficiency.
+      </p>
+
+      <p class="stats">
+      10k+ <span class="small">COMPANIES</span> 
+      314 <span class="small">TEMPLATES</span> 
+      12m+ <span class="small">QUERIES</span> 
+      </p>
+
+    </div>
+
+    <div id="right">
+      <img src="images\image-header-desktop.jpg" alt="header image">
+    </div>
+
+  </div>
+
+
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
